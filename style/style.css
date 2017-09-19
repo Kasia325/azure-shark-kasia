@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:indigo;
+  font-family: 'Questrial', sans-serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  line-height: 2;
+  text-align: center;
+  background-image:url('../images/background.png');
+  background-color:white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Catamaran', sans-serif;
+  text-transform: uppercase;
+  padding: 3%;
+}
+h2{
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+  padding: 5%;
+  color: black;
+}
+
+a:visited {
+    color: thistle;
+}
+a:hover {
+  color: dimgrey;
+}
+
+
+header {
+  background-image: url("../images/background.jpeg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 20vh;
+}
+h3{
+  font-size: 1.5rem;
+  }
+
+header h3 {
+  font-size: 1rem;
+  margin-top: 5vh;
+}
+#about {
+  background-color: dimgrey;
+  padding: 5% 10% 5% 10%;
+}
+#about div{
+  background-color: white;
+  padding: 3%;
+}
+#about p {
+  padding: 2%;
+}
+#skills .fa {
+  font-size: 1.5rem;
+}
+#skills p {
+  padding: 5%;
+}
+iframe {
+  width: 100%;
+}
+#experience {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 5%;
+}
+
+#experience  h4 {
+  font-size: 1rem;
+  text-align: left;
+}
+#experience h3 {
+  text-align: left;
+}
+#experience p {
+  text-align: left;
+}
+footer {
+  background-color: dimgrey;
+}
+footer a {
+  color:white;
+}
+footer a:hover {
+  color: rebeccapurple;
+}
+#contact h2 {
+  color: white;
+}
+input, label, textarea, button {
+  display:block;
+  width: 60%;
+  padding: 0.5%;
+  margin: 0.5% auto;
+
+}
+label {
+  color:white;
+  font-size: 1rem;
+  text-align: left;
+}
+
+button {
+  width: 10%;
+}
+#contact div {
+  color: white;
+  padding: 2%;
+}
+
+#contact div {
+  font-size: 2rem;
+}
